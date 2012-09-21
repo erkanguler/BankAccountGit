@@ -6,7 +6,7 @@ class BankAccount {
 
     /**
      * 
-     * @return type $balance
+     * @return int $balance
      */
     public function getBalance() {
         return $this->balance;
@@ -14,7 +14,7 @@ class BankAccount {
 
     /**
      * 
-     * @param type $balance
+     * @param int $balance
      * @throws BankAccountException
      */
     protected function setBalance($balance) {
@@ -27,8 +27,8 @@ class BankAccount {
 
     /**
      * 
-     * @param type $balance
-     * @return type
+     * @param int $balance
+     * @return int
      */
     public function depositMoney($balance) {
         $this->setBalance($this->getBalance() + $balance);
@@ -38,8 +38,8 @@ class BankAccount {
 
     /**
      * 
-     * @param type $balance
-     * @return type
+     * @param int $balance
+     * @return int
      */
     public function withdrawMoney($balance) {
         $this->setBalance($this->getBalance() - $balance);
