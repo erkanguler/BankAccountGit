@@ -2,10 +2,6 @@
 
 class Calculator {
 
-    function __construct() {
-        
-    }
-
     /**
      * 
      * @assert (0, 0) == 0
