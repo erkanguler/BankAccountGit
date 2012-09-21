@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1348210140">
+  <project timestamp="1348210140">
+    <file name="C:\dloaded\GitHub\src\BankAccountGit\src/BankAccount.php">
+      <class name="BankAccount" namespace="global">
+        <metrics methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="5" elements="14" coveredelements="8"/>
+      </class>
+      <line num="11" type="method" name="getBalance" crap="1" count="2"/>
+      <line num="12" type="stmt" count="2"/>
+      <line num="20" type="method" name="setBalance" crap="6" count="0"/>
+      <line num="21" type="stmt" count="0"/>
+      <line num="22" type="stmt" count="0"/>
+      <line num="23" type="stmt" count="0"/>
+      <line num="24" type="stmt" count="0"/>
+      <line num="26" type="stmt" count="0"/>
+      <line num="33" type="method" name="depositMoney" crap="1" count="2"/>
+      <line num="34" type="stmt" count="2"/>
+      <line num="36" type="stmt" count="1"/>
+      <line num="44" type="method" name="withdrawMoney" crap="1" count="2"/>
+      <line num="45" type="stmt" count="2"/>
+      <line num="47" type="stmt" count="1"/>
+      <metrics loc="52" ncloc="33" classes="1" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="5" elements="14" coveredelements="8"/>
+    </file>
+    <file name="C:\dloaded\GitHub\src\BankAccountGit\src/BankAccountException.php">
+      <class name="BankAccountException" namespace="global">
+        <metrics methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="5" coveredelements="0"/>
+      </class>
+      <line num="6" type="method" name="__construct" crap="2" count="0"/>
+      <line num="8" type="stmt" count="0"/>
+      <line num="9" type="stmt" count="0"/>
+      <line num="12" type="method" name="__toString" crap="2" count="0"/>
+      <line num="13" type="stmt" count="0"/>
+      <metrics loc="18" ncloc="12" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="5" coveredelements="0"/>
+    </file>
+    <metrics files="2" loc="70" ncloc="45" classes="2" methods="6" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="5" elements="19" coveredelements="8"/>
+  </project>
+</coverage>

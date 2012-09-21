@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Dene_test_suite" tests="4" assertions="6" failures="0" errors="0" time="0.015684">
+    <testsuite name="BankAccountTest" file="C:\dloaded\GitHub\src\BankAccountGit\tests\BankAccountTest.php" tests="4" assertions="6" failures="0" errors="0" time="0.015684">
+      <testcase name="testBalanceIsInitiallyZero" class="BankAccountTest" file="C:\dloaded\GitHub\src\BankAccountGit\tests\BankAccountTest.php" line="17" assertions="1" time="0.009915"/>
+      <testcase name="testBalanceCannotBecomeNegative" class="BankAccountTest" file="C:\dloaded\GitHub\src\BankAccountGit\tests\BankAccountTest.php" line="24" assertions="1" time="0.001494"/>
+      <testcase name="testBalanceCannotBecomeNegative2" class="BankAccountTest" file="C:\dloaded\GitHub\src\BankAccountGit\tests\BankAccountTest.php" line="38" assertions="1" time="0.001350"/>
+      <testcase name="testDepositWithdrawMoney" class="BankAccountTest" file="C:\dloaded\GitHub\src\BankAccountGit\tests\BankAccountTest.php" line="56" assertions="3" time="0.002925"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
