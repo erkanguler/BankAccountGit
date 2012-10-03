@@ -15,6 +15,7 @@
       <ConcreteClasses>
         <Class sourceFile="C:\dloaded\GitHub\src\BankAccountGit\src\BankAccount.php">BankAccount</Class>
         <Class sourceFile="C:\dloaded\GitHub\src\BankAccountGit\src\BankAccountException.php">BankAccountException</Class>
+        <Class sourceFile="C:\dloaded\GitHub\src\BankAccountGit\src\Calculator.php">Calculator</Class>
       </ConcreteClasses>
       <AbstractClasses/>
       <DependsUpon>

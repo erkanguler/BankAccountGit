@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Dene_test_suite" tests="4" assertions="6" failures="0" errors="0" time="0.015684">
-    <testsuite name="BankAccountTest" file="C:\dloaded\GitHub\src\BankAccountGit\tests\BankAccountTest.php" tests="4" assertions="6" failures="0" errors="0" time="0.015684">
-      <testcase name="testBalanceIsInitiallyZero" class="BankAccountTest" file="C:\dloaded\GitHub\src\BankAccountGit\tests\BankAccountTest.php" line="17" assertions="1" time="0.009915"/>
-      <testcase name="testBalanceCannotBecomeNegative" class="BankAccountTest" file="C:\dloaded\GitHub\src\BankAccountGit\tests\BankAccountTest.php" line="24" assertions="1" time="0.001494"/>
-      <testcase name="testBalanceCannotBecomeNegative2" class="BankAccountTest" file="C:\dloaded\GitHub\src\BankAccountGit\tests\BankAccountTest.php" line="38" assertions="1" time="0.001350"/>
-      <testcase name="testDepositWithdrawMoney" class="BankAccountTest" file="C:\dloaded\GitHub\src\BankAccountGit\tests\BankAccountTest.php" line="56" assertions="3" time="0.002925"/>
+  <testsuite name="Dene_test_suite" tests="8" assertions="10" failures="0" errors="0" time="0.023318">
+    <testsuite name="BankAccountTest" file="C:\dloaded\GitHub\src\BankAccountGit\tests\BankAccountTest.php" tests="4" assertions="6" failures="0" errors="0" time="0.018641">
+      <testcase name="testBalanceIsInitiallyZero" class="BankAccountTest" file="C:\dloaded\GitHub\src\BankAccountGit\tests\BankAccountTest.php" line="17" assertions="1" time="0.013404"/>
+      <testcase name="testBalanceCannotBecomeNegative" class="BankAccountTest" file="C:\dloaded\GitHub\src\BankAccountGit\tests\BankAccountTest.php" line="24" assertions="1" time="0.001455"/>
+      <testcase name="testBalanceCannotBecomeNegative2" class="BankAccountTest" file="C:\dloaded\GitHub\src\BankAccountGit\tests\BankAccountTest.php" line="38" assertions="1" time="0.001425"/>
+      <testcase name="testDepositWithdrawMoney" class="BankAccountTest" file="C:\dloaded\GitHub\src\BankAccountGit\tests\BankAccountTest.php" line="56" assertions="3" time="0.002358"/>
+    </testsuite>
+    <testsuite name="CalculatorTest" file="C:\dloaded\GitHub\src\BankAccountGit\tests\src\CalculatorTest.php" tests="4" assertions="4" failures="0" errors="0" time="0.004676">
+      <testcase name="testAdd" class="CalculatorTest" file="C:\dloaded\GitHub\src\BankAccountGit\tests\src\CalculatorTest.php" line="36" assertions="1" time="0.001174"/>
+      <testcase name="testAdd2" class="CalculatorTest" file="C:\dloaded\GitHub\src\BankAccountGit\tests\src\CalculatorTest.php" line="48" assertions="1" time="0.001160"/>
+      <testcase name="testAdd3" class="CalculatorTest" file="C:\dloaded\GitHub\src\BankAccountGit\tests\src\CalculatorTest.php" line="60" assertions="1" time="0.001172"/>
+      <testcase name="testAdd4" class="CalculatorTest" file="C:\dloaded\GitHub\src\BankAccountGit\tests\src\CalculatorTest.php" line="72" assertions="1" time="0.001170"/>
     </testsuite>
   </testsuite>
 </testsuites>
